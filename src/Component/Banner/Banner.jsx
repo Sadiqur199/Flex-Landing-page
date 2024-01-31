@@ -23,11 +23,11 @@ const Banner = () => {
         </div>
       </div>
       <div className="drop-shadow-[0_20px_20px_#CEDEF8]">
-        <img src="https://i.ibb.co/D8q49c3/tablet-1.png" alt=""  className="h-screen mt-[70px] mx-auto"/>
+        <img src="https://i.ibb.co/D8q49c3/tablet-1.png" alt=""  className="h-screen mt-[200px] mx-auto"/>
         <img src="https://i.ibb.co/gvHnZNQ/Group-34024.png" alt=""  className="absolute h-screen md:mt-[-600px] mt-[-260px] md:ml-[700px] ml-[150px]"/>
       </div>
      </div>
-      <div className="mt-[70px]">
+      <div className="mt-[80px] mb-5">
         <hr />
       </div>
     </div>
