@@ -8,7 +8,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-center p-10 bg-[#00193D] text-primary-content">
+      <footer className="footer footer-center p-11 bg-[#00193D] text-primary-content">
   <aside>
   <img src="https://i.ibb.co/T4VbX75/1.png" className='w-[120px] h-[50px] text-white' alt="" />
 <p className='md:w-[500px] mb-5'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque.</p>
