@@ -31,11 +31,11 @@ const Question = () => {
 
       <div className="">
         <div className="pb-10">
-          <div className="flex flex-wrap mx-[50px] mt-[50px] justify-between">
+          <div className="md:flex md:flex-wrap md:mx-[50px] mt-[50px] md:justify-between">
             <div>
               <div
                 key={question[0].id}
-                className="flex justify-between mt-8 bg-white p-5 rounded w-[500px]"
+                className="flex justify-between mt-8 bg-white p-5 rounded md:w-[500px]"
               >
                 <div>
                   <h1
@@ -72,7 +72,7 @@ const Question = () => {
               {/* second Question */}
               <div
                 key={question[1].id}
-                className="flex justify-between mt-8 bg-white p-5 rounded w-[500px]"
+                className="flex justify-between mt-8 bg-white p-5 rounded md:w-[500px]"
               >
                 <div>
                   <h1
@@ -111,7 +111,7 @@ const Question = () => {
               {/* Third Question */}
               <div
                 key={question[2].id}
-                className="flex justify-between mt-8 bg-white p-5 rounded w-[500px]"
+                className="flex justify-between mt-8 bg-white p-5 rounded md:w-[500px]"
               >
                 <div>
                   <h1
@@ -148,7 +148,7 @@ const Question = () => {
               {/* Fourth Question */}
               <div
                 key={question[3].id}
-                className="flex justify-between mt-8 bg-white p-5 rounded w-[500px]"
+                className="flex justify-between mt-8 bg-white p-5 rounded md:w-[500px]"
               >
                 <div>
                   <h1
@@ -186,7 +186,7 @@ const Question = () => {
             <div>
               <div
                 key={question[4].id}
-                className="flex justify-between mt-8 bg-white p-5 rounded w-[500px]"
+                className="flex justify-between mt-8 bg-white p-5 rounded md:w-[500px]"
               >
                 <div>
                   <h1
@@ -224,7 +224,7 @@ const Question = () => {
             <div>
               <div
                 key={question[5].id}
-                className="flex justify-between mt-8 bg-white p-5 rounded w-[500px]"
+                className="flex justify-between mt-8 bg-white p-5 rounded md:w-[500px]"
               >
                 <div>
                   <h1

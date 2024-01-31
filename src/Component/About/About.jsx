@@ -6,9 +6,9 @@ import { GiTrophyCup } from "react-icons/gi";
 
 const About = () => {
   return (
-    <div className="w-[1500px] ">
-      <div className="md:flex justify-between  mx-[200px]">
-        <div className="w-[350px] h-[350px] bg-[#F1F6FF] mt-[120px] rounded">
+    <div className="md:w-[1500px] h-screen ">
+      <div className="md:flex md:justify-between  md:mx-[200px]">
+        <div className="w-[350px] h-[350px] bg-[#F1F6FF] mt-[120px] rounded md:block hidden">
           <img
             src="https://i.ibb.co/yXsjCjR/Pre-order-vs-delivery-1.png"
             alt=""
@@ -25,12 +25,12 @@ const About = () => {
             className="w-[230px] h-[160px] absolute ml-[170px] mt-[160px]"
           />
         </div>
-        <div className="md:ml-[300px] mt-[120px] w-[500px]">
+        <div className="md:ml-[300px] md:mt-[120px] md:w-[500px]">
           <p className="text-sm text-[#0052CC] mb-5">About us</p>
           <h2 className="text-3xl font-bold mb-5">
             A dedicated solution for startups and enterprises
           </h2>
-          <p className="mb-5 text-[#4E4E4E] text-justify">
+          <p className="mb-5 text-[#4E4E4E] md:text-justify">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -52,27 +52,27 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mx-[200px] mt-[120px]">
-        <div className="flex justify-between">
-          <div>
-            <LuMonitorSmartphone className="text-[#0052CC] mb-2" size={30}/>
-            <p className="text-[#0052CC] font-bold mb-2 text-xl">10+</p>
+      <div className="md:mx-[200px] md:mt-[120px] mt-5">
+        <div className="md:flex md:justify-between">
+          <div className=" md:mb-0 mb-1">
+            <LuMonitorSmartphone className="text-[#0052CC] md:mb-2" size={30}/>
+            <p className="text-[#0052CC] font-bold md:mb-2 text-xl">10+</p>
             <p className="text-[#4E4E4E]">Platforms Created</p>
           </div>
 
-          <div>
-            <FaPeopleGroup className="text-[#0052CC] mb-2" size={30}/>
-            <p className="text-[#0052CC] font-bold mb-2 text-xl">1559+</p>
+          <div className=" md:mb-0 mb-1">
+            <FaPeopleGroup className="text-[#0052CC] md:mb-2" size={30}/>
+            <p className="text-[#0052CC] font-bold md:mb-2 text-xl">1559+</p>
             <p className="text-[#4E4E4E]">Total Users</p>
           </div>
 
-          <div>
-            <CiUser className="text-[#0052CC] mb-2" size={30}/>
-            <p className="text-[#0052CC] font-bold mb-2 text-xl">10+</p>
+          <div className=" md:mb-0 mb-1">
+            <CiUser className="text-[#0052CC] md:mb-2" size={30}/>
+            <p className="text-[#0052CC] font-bold md:mb-2 text-xl">10+</p>
             <p className="text-[#4E4E4E]">Total Clients</p>
           </div>
 
-          <div>
+          <div >
             <GiTrophyCup className="text-[#0052CC] mb-2" size={30}/>
             <p className="text-[#0052CC] font-bold mb-2 text-xl">300 Days</p>
             <p className="text-[#4E4E4E]">In Operations</p>
